@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+keras-rectified-adam = "*"
+matplotlib = "*"
+pydot = "*"
+tensorflow = "==1.8"
+keras = "==2.1.5"
+jupyter = "*"
+
+[requires]
+python_version = "3.6"
